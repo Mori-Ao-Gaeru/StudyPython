@@ -6,7 +6,7 @@ def is_prime(n):
     return True
 
 def count_Primes(n):
-    return [i for i in range(2, n) if is_prime(i)]
+    return [i for i in range(2, n+1) if is_prime(i)]
 
 print("Please Input a natural number")
 n = int(input())
